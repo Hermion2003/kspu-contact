@@ -37,10 +37,6 @@
         width: max-content;
         display: flex;
         z-index: 110;
-        @media (max-width: 600px) {
-          max-width: 80%;
-        }
-
       }
     }
 
@@ -49,19 +45,6 @@
       gap: 140px;
       justify-content: space-between;
       padding: 0 1vw 0 10vw;
-      @media (max-width: 700px) {
-        padding: 0 1vw 0 4vw;
-        gap: 100px;
-      }
-      @media (max-width: 600px) {
-        flex-direction: column;
-        gap: 20px;
-      }
-
-      @media (max-width: 500px) {
-        padding: 0 1vw 0 1vw;
-        flex-direction: column;
-      }
 
       .column {
         font-size: 16px;
@@ -112,47 +95,17 @@
     .threeColumnContainer {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      @media (max-width: 950px) {
-        grid-template-columns: repeat(2, 1fr);
-      }
-      @media (max-width: 750px) {
-        grid-template-columns: repeat(1, 1fr);
-        justify-items: center;
-
-      }
       gap: 0px;
       width: 100%;
       //  background: red;
 
       .smallBlueBlock {
         // width: 200px;
-
         height: 370px;
         margin-bottom: 20px;
 
-        @media (max-width: 750px) {
-          max-width: 500px;
-          width: 100%;
-
-        }
-
-        .innerBlock {
-          margin: auto;
-        }
-
         * > {
           box-sizing: border-box;
-        }
-
-        @media (max-width: 750px) {
-          //.innerBlock {
-          //  cursor: pointer; /* Zmiana kursora na wskaźnik kliknięcia */
-          //  transition: transform 0.3s ease-in-out; /* Płynna animacja przy kliknięciu */
-          //}
-
-          &.flipped .innerBlock {
-            transform: rotateY(180deg); /* Obrót o 180 stopni */
-          }
         }
 
         .innerBlock {

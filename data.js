@@ -2,6 +2,7 @@ const data =
     [
         {
             "title": "Контакти",
+            'img':"assets/herb.png",
             "blocks": [
                 {
                     "front": "Бериславський фаховий педагогічний коледж імені В.Ф. Беньковського Херсонського державного університету",
@@ -105,6 +106,8 @@ const data =
         },
         {
             "title": "Факультет бізнесу і права",
+
+            'img':"assets/logos/business.png",
             "blocks": [{
                 "front": "Факультет бізнесу і права",
                 "back": "<p>Мельникова Катерина Вікторівна - В.о. декана <br/><a href='mailto:EMelnikova@ksu.ks.ua'>EMelnikova@ksu.ks.ua</a> <a" +
@@ -133,6 +136,7 @@ const data =
         },
         {
             "title": "Факультет біології географії та екології",
+            "img":"assets/logos/biology.png",
             "blocks": [
                 {
                     "front": "Факультет біології географії та екології",
@@ -161,6 +165,8 @@ const data =
         },
         {
             "title": "Факультет комп’ютерних наук, фізики та математики",
+
+            'img':"assets/logos/comp.png",
             "blocks": [{
                 "front": "Факультет комп’ютерних наук, фізики та математики",
                 "back": "<p>Гончаренко Тетяна Леонідівна, деканеса <a href=\"mailto:tgoncharenko@ksu.ks.ua\">tgoncharenko@ksu.ks.ua</a> @dekanesa</p>\n" +
@@ -186,6 +192,8 @@ const data =
         },
         {
             "title": "Медичний факультет",
+
+            'img':"assets/logos/medical.png",
             "blocks": [{
                 "front": "Медичний факультет",
                 "back": "<p>Головченко Ігор Валентинович, декан</p><p> <a href=\"mailto:igolovchenko@ksu.ks.ua\">igolovchenko@ksu.ks.ua</a>   <a href=\"tel:+380661151349\">+380661151349</a></p><p>Контакти для вирішення виробничих питань:</p><p><a href=\"tel:+380661151349\">+380661151349</a> (Telegram, WhatsApp, Viber)</p><p>Головченко Ігор Валентинович, декан</p><p>Тоніна Тетяна Вікторівна, секретар факультету</p><p> <a href=\"tel:+380502436073\">+380502436073</a></p><p>Васильєва Наталія Олегівна - Заступниця декана факультету з навчально-методичної роботи</p><p> <a href=\"mailto:nvasylieva@ksu.ks.ua\">nvasylieva@ksu.ks.ua</a>  <a href=\"tel:+380661351430\">+380661351430</a></p><p>Солона Юлія Олександрівна - Заступниця декана факультету з організаційно-виховної роботи та працевлаштування</p><p> <a href=\"mailto:yusolona@ksu.ks.ua\">yusolona@ksu.ks.ua</a>  <a href=\"tel:+380955325229\">+380955325229</a></p>"
@@ -206,6 +214,8 @@ const data =
         },
         {
             "title": "Факультет культури і мистецтв",
+
+            'img':"assets/logos/culture.png",
             "blocks": [{
                 "front": "Факультет культури і мистецтв",
                 "back": "<p>Терешенко Наталя Віталіївна - В.о. декана</p><p> <a href=\"mailto:tere@ksu.ks.ua\">tere@ksu.ks.ua</a>    <a" +
@@ -233,6 +243,8 @@ const data =
         },
         {
             "title": "Педагогічний факультет",
+
+            'img':"assets/logos/pedology.png",
             "blocks": [{
                 "front": "Педагогічний факультет",
                 "back": "<p>Воропай Наталія Анатоліївна, в.о. завідувача кафедри</p><p><a href=\"mailto:nvoropay@ksu.ks.ua\">nvoropay@ksu.ks.ua</a>" +
@@ -260,6 +272,8 @@ const data =
         },
         {
             "title": "Факультет психології, історії та соціології",
+
+            'img':"assets/logos/psychology.png",
             "blocks": [
                 {
                     "front": "Факультет психології, історії та соціології",
@@ -285,6 +299,8 @@ const data =
         },
         {
             "title": "Факультет української й іноземної філології та журналістики",
+
+            'img':"assets/logos/ukrLanguage.png",
             "blocks": [{
                 "front": "Факультет української й іноземної філології та журналістики",
                 "back": "<p>Гоштанар Ірина Вікторівна - Деканеса</p><p> <a href=\"mailto:igoshtanar@ksu.ks.ua\">igoshtanar@ksu.ks.ua</a>" +
@@ -316,6 +332,8 @@ const data =
         },
         {
             "title": "Факультет фізичного виховання та спорту",
+
+            'img':"assets/logos/sport.png",
             "blocks": [{
                 "front": "Факультет фізичного виховання та спорту",
                 "back": "<p>Глухов Іван Геннадійович</p><p><a href=\"mailto:igluhov@ksu.ks.ua\">igluhov@ksu.ks.ua</a> <a" +

@@ -160,7 +160,7 @@
           width: 93%;
           height: 100%;
           perspective: 1000px;
-          position: relative;
+          position: relative;  overflow: hidden;
           transform-style: preserve-3d;
           transition: transform 0.6s;
         }

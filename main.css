@@ -122,6 +122,8 @@
 .container .wrapper .threeColumnContainer .smallBlueBlock {
   height: 370px;
   margin-bottom: 20px;
+  
+  overflow: hidden;
 }
 @media (max-width: 750px) {
   .container .wrapper .threeColumnContainer .smallBlueBlock {
@@ -130,8 +132,7 @@
   }
 }
 .container .wrapper .threeColumnContainer .smallBlueBlock .innerBlock {
-  
-  overflow: hidden;
+   
   margin: auto;
 }
 @media (max-width: 750px) {
@@ -146,7 +147,6 @@
   position: relative;
   transform-style: preserve-3d;
   transition: transform 0.6s;
-  overflow: hidden;
 }
 .container .wrapper .threeColumnContainer .smallBlueBlock:hover .innerBlock {
   transform: rotateY(180deg);

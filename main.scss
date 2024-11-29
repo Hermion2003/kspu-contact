@@ -130,6 +130,7 @@
         height: 370px;
         margin-bottom: 20px;
 
+        overflow: hidden;
         @media (max-width: 750px) {
           max-width: 500px;
           width: 100%;
@@ -138,7 +139,6 @@
 
         .innerBlock {
           margin: auto;
-          overflow: hidden;
         }
 
         * > {

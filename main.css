@@ -130,6 +130,8 @@
   }
 }
 .container .wrapper .threeColumnContainer .smallBlueBlock .innerBlock {
+  
+  overflow: hidden;
   margin: auto;
 }
 @media (max-width: 750px) {
